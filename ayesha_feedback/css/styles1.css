@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,600);
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: "open sans", helvetica, arial, sans;
+}
+
+body {
+  background: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 20px;
+  color: aliceblue;
+  line-height: 1.6;
+}
+
+.login-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 100px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  padding-bottom: 30px;
+  text-align: center;
+  color: aliceblue;
+  margin: 0;
+}
+
+input {
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin: 5px 0 5px 0;
+  background-color: aliceblue;
+  border-radius: 4px;
+}
+
+label {
+  font-size: 18px;
+  color: aliceblue;
+  display: inline-block;
+  width: 100px;
+}
+
+#email {
+  margin-left: 105px;
+  width: 250px;
+}
+
+#password {
+  margin-left: 70px;
+  width: 250px;
+}
+
+#login {
+  font-size: medium;
+  font-weight: bold;
+  width: 75px;
+  margin-top: 25px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#login:hover {
+  background-color: #0056b3;
+}
